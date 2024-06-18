@@ -1,0 +1,41 @@
+.post-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.post-form label {
+  margin-bottom: 10px;
+}
+
+.post-form input,
+.post-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.editor-container {
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  height: 100px;
+}
+
+.post-form button {
+  padding: 10px 20px;
+  border: none;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  margin-top: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.post-form button:hover {
+  background-color: #f1f1f1;
+}

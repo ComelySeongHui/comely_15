@@ -1,0 +1,13 @@
+  .navmenu {
+      display: flex;
+      gap: 20px;
+  }
+
+  .navmenu a {
+      color: inherit;
+      text-decoration: none;
+  }
+
+  .navmenu svg {
+      cursor: pointer;
+  }

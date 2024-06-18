@@ -1,0 +1,104 @@
+.board-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  .board-title {
+    margin-bottom: 20px;
+  }
+  
+  .post-list {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .post-item {
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+    font-size: 0.9em; /* 글을 조금 작게 설정 */
+    margin-top: 10px; /* 글 위에 여백 추가 */
+  }
+  
+  .post-item strong {
+    cursor: pointer;
+  }
+  
+  .content {
+    margin-top: 10px;
+  }
+  
+  .post-actions {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .author {
+    font-weight: bold;
+    color: grey;
+    margin-right: 10px; /* 수정 및 삭제 버튼과의 간격 설정 */
+  }
+  
+  .button {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  
+  .button:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    max-width: 800px;
+    margin-top: 20px;
+  }
+  
+  .pagination {
+    display: flex;
+  }
+  
+  .page-button {
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .page-button.active {
+    background-color: #f1f1f1;
+    color: black;
+  }
+  
+  .new-post-button {
+    background-color: white;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+  }
+  
+  .new-post-button:hover {
+    background-color: #f1f1f1;
+  }
+  
+
+  
